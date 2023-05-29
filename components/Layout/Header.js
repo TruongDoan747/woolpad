@@ -13,7 +13,7 @@ import SelectLanguage from "../SelectLanguage";
 export const NavData = [
   {
     title: "SmartTivi",
-    to: "/",
+    to: "",
   },
   {
     title: "Nội Thất",
@@ -83,7 +83,7 @@ const Header = () => {
           (scrollActive ? "shadow-md pt-0  bg-black" : " ")
         }
       >
-        <nav className=" h-full flex lg:justify-normal justify-between items-center -  mx-auto px-[18px]  py-3 sm:py-4 w-full ">
+        <nav className=" h-full flex lg:justify-normal justify-between items-center custom_container mx-auto px-[18px]  py-3 sm:py-4 w-full ">
           <a href="/" className="">
             <div className="relative col-start-1 col-end-2 flex items-center w-[120px] h-[23px] cursor-pointer">
               <Image

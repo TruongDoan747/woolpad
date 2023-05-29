@@ -1,47 +1,42 @@
-import ImageRight from '@/assets/light/image_right1.jpg';
+import tivi3 from '@/assets/light/tivi3.jpg';
 
 
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
-import CustomSection from '../common/Section';
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-
-//import ImageRight from '@/assets/home/imageRight3.png';
 
 const Light = () => {
   const { i18n, t } = useTranslation();
   return (
-    <CustomSection>
-      <div class="hidden md:block " >
+    <div className='custom_container pt-[50px] h-[100vh] pb-10 '>
+      <div class="hidden lg:block container_light" >
+        <div className=" flex justify-around p-[20px]">
 
-        <div className=" flex justify-between items-center flex-row w-full  h-[100vh] ">
-          <div className=' '>
-            <Image fill style={{ objectFit: 'contain' }} src={ImageRight} />
+          <div className='mt-[10%]'>
+            <p className='2xl:text-[45px] xl:text-[38px] text-[27px] font-bold text-[#000]'>WOOLPAD
+              <span className='ml-[15px] 2xl:text-[40px] xl:text-[30px] text-[25px] font-normal text-[#000]'>Ti Vi OLED</span>
+            </p>
+            <p className='2xl:text-[35px] xl:text-[28px] text-[18px] font-semibold'>Công nghệ màn hình tivi OLED</p>
+            <button
+              type="button"
+              class="button_rotate_animation text-center shadow-box w-[110px] h-[30px] mt-[20px] text-[16px] font-bold leading-normal text-white rounded-[40.0783px] hover:bg-success-600 bg-[#000] hover:bg-[#2c2b2b] shadow-md"
+            >
+              Mua Ngay
+            </button>
           </div>
-          <div className=' flex flex-col w-[45%]'>
-            <p className=' text-[#02b6ff] lg:text-[27px] text-[25px] uppercase font-bold '>See the night in a different light</p>
-            <AnimationOnScroll animateIn="animate__fadeIn">
-              <p className='text-[#161515] lg:text-[16px]text-[14px] '>The Saigon is the safest bike out of the box. Integrated lights to the front, rear and in the handlebar ends are always there when you need them. You’re safer when you’re seen.</p>
-            </AnimationOnScroll>
+
+          <div className=''>
+            <Image fill style={{ objectFit: 'contain' }} src={tivi3} width="650px" height="450px" className='img-light' />
           </div>
 
         </div>
       </div>
 
-      <div class="md:hidden ">
-
-        <div >
-          <Image fill style={{ objectFit: 'contain' }} src={ImageRight} />
-        </div>
-        <div className=' flex flex-col px-5'>
-          <p className=' text-[#02b6ff] text-[22px] uppercase font-bold '>See the night in a different light</p>
-          <p className='text-[#161515] text-[14px] '>The Saigon is the safest bike out of the box. Integrated lights to the front, rear and in the handlebar ends are always there when you need them. You’re safer when you’re seen.</p>
-        </div>
+      <div class="lg:hidden ">
 
       </div>
 
-    </CustomSection>
+    </div>
   );
 };
 

@@ -26,8 +26,8 @@ export default function Home() {
       </Head>
       <LayoutWrapper>
         <HeroHompage />
-        {/* <Light />
-        <Mobi />
+        <Light />
+        {/* <Mobi />
         <Slide />
         <Specifications /> */}
         <ScrollTop />

@@ -72,20 +72,13 @@ const Footer = () => {
   const [activeLink, setActiveLink] = useState(null);
   return (
 
-    <div className="bg-[#131212] ">
+    <div className="bg-[#ffff] ">
       <div className=" hidden lg:block">
-        <CustomSection>
 
-
-
-        </CustomSection>
       </div>
 
       <div className=" lg:hidden flex justify-center">
-        <CustomSection>
 
-
-        </CustomSection>
       </div>
     </div>
   );
