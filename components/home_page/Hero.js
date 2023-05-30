@@ -1,5 +1,5 @@
 import hinh1 from '@/assets/hero/tivi1.png';
-import hinh2 from '@/assets/hero/tivi2.png';
+import hinh5 from '@/assets/hero/hinh5.png';
 import hinh1Mobi from '@/assets/hero/hinh1.png';
 import hinh2Mobi from '@/assets/hero/hinh2.png';
 import Image from 'next/image';
@@ -19,13 +19,13 @@ const HeroHompage = () => {
 
   const slideData = [
     {
-      src: hinh1,
+      src: hinh5,
       name: "WOOLPAD",
       title: "Ti Vi OLED",
       subTitle: "Công nghệ màn hình tivi OLED"
     },
     {
-      src: hinh2,
+      src: hinh1,
       name: "WOOLPAD",
       title: "Ti Vi OLED",
       subTitle: "Công nghệ màn hình tivi OLED"
@@ -34,7 +34,7 @@ const HeroHompage = () => {
   ];
   const slideDataMobi = [
     {
-      src: hinh1Mobi,
+      src: hinh5,
       name: "WOOLPAD",
       title: "Ti Vi OLED",
       subTitle: "Công nghệ màn hình tivi OLED"
@@ -45,6 +45,7 @@ const HeroHompage = () => {
       title: "Ti Vi OLED",
       subTitle: "Công nghệ màn hình tivi OLED"
     },
+
 
   ];
 
@@ -84,9 +85,9 @@ const HeroHompage = () => {
                     <p className='2xl:text-[35px] xl:text-[28px] text-[18px] font-semibold'>{item.subTitle}</p>
                     <button
                       type="button"
-                      class="button_rotate_animation text-center shadow-box w-[130px] h-[40px] mt-[20px] text-[18px] font-bold leading-normal text-white rounded-[40.0783px] hover:bg-success-600 bg-[#e50d0d] hover:bg-[#e71d1d] shadow-md"
+                      class="button_rotate_animation text-center shadow-box w-[140px] h-[50px] mt-[20px] text-[18px] font-bold leading-normal text-white rounded-[40.0783px] hover:bg-success-600 bg-[#e50d0d] hover:bg-[#e71d1d] shadow-md"
                     >
-                      Mua Ngay
+                      Xem Thêm
                     </button>
                   </div>
                 </div>
@@ -132,7 +133,7 @@ const HeroHompage = () => {
                     type="button"
                     class="button_rotate_animation text-center shadow-box w-[130px] h-[40px] mt-[20px] text-[18px] font-bold leading-normal text-white rounded-[40.0783px] hover:bg-success-600 bg-[#e50d0d] hover:bg-[#e71d1d] shadow-md"
                   >
-                    Mua Ngay
+                    Xem Thêm
                   </button>
 
                 </div>
