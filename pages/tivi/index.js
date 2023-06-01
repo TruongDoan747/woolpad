@@ -1,5 +1,6 @@
 import ScrollTop from '@/components/ScrollTop';
 import DetailTiVi from '@/components/tivi_page/DetailTiVi';
+import SubDetail from '@/components/tivi_page/SubDetail';
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import React from 'react';
@@ -16,10 +17,11 @@ const About = () => {
     <link rel="icon" href="/favicon.ico" />
    </Head>
    <LayoutWrapper>
-    <div className="flex lg:hidden bg-[#ffffff2e] backdrop-blur-md text-[32px] leading-[60px] text-white font-bold justify-center items-center pt-[80px]">
+    {/* <div className="flex lg:hidden bg-[#ffffff2e] backdrop-blur-md text-[32px] leading-[60px] text-white font-bold justify-center items-center pt-[80px]">
      Smart TiVi
-    </div>
+    </div> */}
     <DetailTiVi />
+    <SubDetail/>
 
     <ScrollTop />
    </LayoutWrapper>
