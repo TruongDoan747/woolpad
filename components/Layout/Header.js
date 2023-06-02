@@ -19,11 +19,6 @@ export const NavData = [
     title: "Nội Thất",
     to: "",
   },
-  {
-    title: "Điện Gia Dụng",
-    to: "",
-  }
-
 
 
 ];

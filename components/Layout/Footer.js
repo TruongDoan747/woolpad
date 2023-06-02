@@ -72,14 +72,19 @@ const Footer = () => {
   const [activeLink, setActiveLink] = useState(null);
   return (
 
-    <div className="bg-[#ffff] ">
-      <div className=" hidden lg:block">
+    <div className="custom_container h-[200px] pt-5">
+
+      <div className=" flex flex-col justify-center items-center">
+        <div className=" h-[1px] bg-[#beb8b8c5] w-[90%] text-center pl-[10%] pr-[10%]" />
+        <p className="text-[#979292da] mt-5">CÔNG TY TNHH WOOPAD</p>
+      </div>
+      {/* <div className=" hidden lg:block">
 
       </div>
 
       <div className=" lg:hidden flex justify-center">
 
-      </div>
+      </div> */}
     </div>
   );
 };
