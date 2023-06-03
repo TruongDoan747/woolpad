@@ -76,7 +76,7 @@ const Footer = () => {
 
       <div className=" flex flex-col justify-center items-center">
         <div className=" h-[1px] bg-[#beb8b8c5] w-[90%] text-center pl-[10%] pr-[10%]" />
-        <p className="text-[#979292da] mt-5">CÔNG TY TNHH WOOPAD</p>
+        <p className="text-[#979292da] mt-5">CÔNG TY TNHH WOOLPAD</p>
       </div>
       {/* <div className=" hidden lg:block">
 

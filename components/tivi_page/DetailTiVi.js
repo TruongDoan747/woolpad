@@ -36,38 +36,38 @@ const DetailTiVi = () => {
     {
       id: 1,
       title: "50",
-      price: 1000000,
-      currentPrice: 2000000,
+      price: 8389500,
+      currentPrice: 9228450,
     },
     {
       id: 2,
       title: "55",
-      price: 1500000,
-      currentPrice: 2500000
+      price: 9439500,
+      currentPrice: 10383450
     },
     {
       id: 3,
       title: "65",
-      price: 2000000,
-      currentPrice: 3000000
+      price: 11539500,
+      currentPrice: 12693450
     },
     {
       id: 4,
       title: "75",
-      price: 3000000,
-      currentPrice: 4000000
+      price: 19939500,
+      currentPrice: 21933450
     },
     {
       id: 5,
       title: "85",
-      price: 4000000,
-      currentPrice: 5000000
+      price: 30439500,
+      currentPrice: 33483450
     },
     {
       id: 6,
       title: "100",
-      price: 5000000,
-      currentPrice: 6000000
+      price: 93429000,
+      currentPrice: 12771900
     },
 
   ];
@@ -81,6 +81,7 @@ const DetailTiVi = () => {
   return (
     <>
       <div className="overflow-hidden pt-[80px] w-full custom_container ">
+        <p className=' text-center text-[#da2525] font-semibold lg:text-[25px] md:text-[20px] text-[18px] pb-5'>"Gia đình cần chúng tôi có"</p>
         <div className='  container_detail_tivi'>
           <div className=' flex w-full justify-center items-center lg:flex-row flex-col '>
             <div className='lg:w-[50%] md:w-full w-[80%] md:pl-[10%] pl-0'>
@@ -134,7 +135,7 @@ const DetailTiVi = () => {
                   item.id === priceId && (
                     <div>
                       <span className='text-[14px] font-semibold text-[#868686] line-through '>{item.currentPrice.toLocaleString()} <span className='underline'>đ</span></span>
-                      <span className='pl-5 text-[20px] font-semibold text-[#000000]'>{item.price.toLocaleString()} <span className='underline text-[18px] text-[#5f5e5e]'>đ</span></span>
+                      <span className='pl-5 text-[20px] font-semibold text-[#000000]'>{item.price.toLocaleString()} <span className='underline text-[18px] text-[#383636]'>đ</span></span>
                     </div>)
                 ))}
               </div>

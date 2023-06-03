@@ -1,15 +1,13 @@
 import ScrollTop from '@/components/ScrollTop';
+import HeroHompage from '@/components/home_page/Hero';
+import Light from '@/components/home_page/Light';
 import 'animate.css';
 import 'animate.css/animate.min.css';
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import React from 'react';
 import '../i18next';
-import HeroHompage from '@/components/home_page/Hero';
-import Light from '@/components/home_page/Light';
-import Mobi from '@/components/home_page/Mobi';
-import Slide from '@/components/home_page/Slide';
-import Specifications from '@/components/home_page/Specifications';
+import Product from '@/components/home_page/Product';
 
 
 
@@ -27,9 +25,7 @@ export default function Home() {
       <LayoutWrapper>
         <HeroHompage />
         <Light />
-        {/* <Mobi />
-        <Slide />
-        <Specifications /> */}
+        <Product />
         <ScrollTop />
       </LayoutWrapper>
     </React.Suspense>

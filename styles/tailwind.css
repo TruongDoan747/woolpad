@@ -439,8 +439,6 @@ li.check:before {
   height: 100%;
 }
 
-
-
 .box-price {
   border-radius: 50%;
   border: solid 1.5px #0c0302;
@@ -450,4 +448,11 @@ li.check:before {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+.container_card {
+  border-radius: 20px;
+  background-color: #ffff;
+
+
 }

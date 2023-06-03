@@ -25,12 +25,12 @@ const HeroHompage = () => {
       title: "Ti Vi OLED",
       subTitle: "Hình ảnh chân thực như cuộc sống"
     },
-    {
-      src: hinh1,
-      name: "WOOLPAD",
-      title: "Ti Vi OLED",
-      subTitle: "Hình ảnh chân thực như cuộc sống"
-    },
+    // {
+    //   src: hinh1,
+    //   name: "WOOLPAD",
+    //   title: "Ti Vi OLED",
+    //   subTitle: "Hình ảnh chân thực như cuộc sống"
+    // },
 
   ];
   const slideDataMobi = [
@@ -40,12 +40,12 @@ const HeroHompage = () => {
       title: "Ti Vi OLED",
       subTitle: "Hình ảnh chân thực như cuộc sống"
     },
-    {
-      src: hinh2Mobi,
-      name: "WOOLPAD",
-      title: "Ti Vi OLED",
-      subTitle: "Hình ảnh chân thực như cuộc sống"
-    },
+    // {
+    //   src: hinh2Mobi,
+    //   name: "WOOLPAD",
+    //   title: "Ti Vi OLED",
+    //   subTitle: "Hình ảnh chân thực như cuộc sống"
+    // },
 
 
   ];

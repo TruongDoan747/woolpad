@@ -17,11 +17,8 @@ const About = () => {
     <link rel="icon" href="/favicon.ico" />
    </Head>
    <LayoutWrapper>
-    {/* <div className="flex lg:hidden bg-[#ffffff2e] backdrop-blur-md text-[32px] leading-[60px] text-white font-bold justify-center items-center pt-[80px]">
-     Smart TiVi
-    </div> */}
     <DetailTiVi />
-    <SubDetail/>
+    <SubDetail />
 
     <ScrollTop />
    </LayoutWrapper>
