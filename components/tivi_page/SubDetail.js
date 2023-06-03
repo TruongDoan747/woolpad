@@ -31,7 +31,7 @@ const dataDetail = [
   },
   {
     src: detailAnhSang,
-    title: "Công nghệ màn hình LED không làm tivi bị nóng khi hoạt động thời gian dài",
+    title: "Màn hình LED không làm tivi bị nóng khi hoạt động thời gian dài",
     subTitle: "Hỗ trợ tản nhiệt tốt để góp phần giúp tivi bền hơn, tuổi thọ trung bình khoảng 60 - 80.000 giờ",
   }
 ]
@@ -54,7 +54,7 @@ const SubDetail = () => {
                 </div>
                 <div className=' absolute flex justify-center items-center flex-col text-white z-999  xl:top-[70px] md:top-[60px] top-[10px] w-full' >
                   <p className='2xl:text-[40px] xl:text-[35px] lg:text-[30px] md:text-[20px] text-[18px] text-center'>{item.title}</p>
-                  <p className='2xl:text-[25px] xl:text-[20px] lg:text-[18px] md:text-[18px] sm-text-[16px] text-[14px] text-center'>{item.subTitle}</p>
+                  <p className='2xl:text-[25px] xl:text-[20px] lg:text-[18px] md:text-[18px] sm-text-[16px] text-[14px] text-center hidden md:block'>{item.subTitle}</p>
                 </div>
               </div>
 

@@ -12,7 +12,7 @@ import SelectLanguage from "../SelectLanguage";
 
 export const NavData = [
   {
-    title: "SmartTivi",
+    title: "Tivi Woolpad",
     to: "/tivi",
   },
   {

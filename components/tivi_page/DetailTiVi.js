@@ -140,7 +140,7 @@ const DetailTiVi = () => {
               </div>
               <button
                 type="button"
-                class=" button_rotate_animation text-center shadow-box w-[110px] h-[40px] mt-[20px] mb-[20px] text-[16px] font-semibold leading-normal text-black rounded-[40.0783px] hover:bg-success-600 border-gray-950 hover:bg-[#d6d2d2] shadow-md"
+                class=" button_rotate_animation text-center shadow-box w-[110px] h-[40px] mt-[20px] mb-[20px] text-[16px] font-semibold leading-normal text-[#ffffff] rounded-[40.0783px] hover:bg-success-600 border-gray-950 bg-black-400  shadow-md"
               >
                 Mua Ngay
               </button>

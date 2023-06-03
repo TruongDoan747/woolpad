@@ -1,4 +1,5 @@
 import tivi3 from '@/assets/light/hinh7.png';
+import hinh1 from '@/assets/hero/tivi1.png';
 
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
@@ -17,7 +18,7 @@ const Light = () => {
             <p className='pt-[15px] 2xl:text-[18px] xl:text-[16px] text-[14px] text-[#a19c9cfa]'> Thiết kế Neo Slim. Công nghệ màn hình tivi OLED, Toàn bộ vỏ kim loại, chống cháy nổ, mặt cường lực, chống va đập </p>
             <button
               type="button"
-              class="button_rotate_animation text-center shadow-box w-[125px] h-[40px] mt-[20px] text-[16px] font-bold leading-normal text-white rounded-[40.0783px] hover:bg-success-600 bg-[#000] hover:bg-[#2c2b2b] shadow-md"
+              class="button_rotate_animation text-center shadow-box w-[125px] h-[40px] mt-[20px] text-[16px] font-normal leading-normal text-[#ffffff] rounded-[40.0783px] hover:bg-success-600 bg-[#000] hover:bg-[#2c2b2b] shadow-md"
             >
               Xem Thêm
             </button>
@@ -43,13 +44,14 @@ const Light = () => {
             <p className='pt-[15px] text-[16px]  text-[#a19c9cfa]'> Thiết kế Neo Slim. Công nghệ màn hình tivi OLED, Toàn bộ vỏ kim loại, chống cháy nổ, mặt cường lực, chống va đập </p>
 
           </div>
-          <button
-            type="button"
-            class="  button_rotate_animation text-center shadow-box w-[125px] h-[40px] mt-[20px] text-[16px] font-bold leading-normal text-white rounded-[40.0783px] hover:bg-success-600 bg-[#000] hover:bg-[#2c2b2b] shadow-md"
-          >
-            Xem Thêm
-          </button>
-
+          <a href='/tivi'>
+            <button
+              type="button"
+              class="  button_rotate_animation text-center shadow-box w-[125px] h-[40px] mt-[20px] text-[16px] font-normal leading-normal text-[#ffff] rounded-[40.0783px] hover:bg-success-600 bg-[#000] hover:bg-[#2c2b2b] shadow-md"
+            >
+              Xem Thêm
+            </button>
+          </a>
 
         </div>
       </div>
