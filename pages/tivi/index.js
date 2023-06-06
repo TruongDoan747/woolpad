@@ -1,3 +1,4 @@
+import HotLine from '@/components/HotLine';
 import ScrollTop from '@/components/ScrollTop';
 import DetailTiVi from '@/components/tivi_page/DetailTiVi';
 import SubDetail from '@/components/tivi_page/SubDetail';
@@ -20,7 +21,8 @@ const About = () => {
     <DetailTiVi />
     <SubDetail />
 
-    <ScrollTop />
+    {/* <ScrollTop /> */}
+    <HotLine />
    </LayoutWrapper>
   </React.Suspense>
  );

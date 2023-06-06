@@ -166,6 +166,22 @@ li.check:before {
   align-items: center;
 }
 
+.hot-line {
+  position: fixed;
+  /* background-color: #ffffff; */
+  padding: 10px;
+  /* border: #0084ff solid 1px; */
+  /* border-radius: 5px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 36px;
+  bottom: 60px;
+  cursor: pointer;
+  animation: gotop 1s ease;
+  z-index: 9999;
+}
+
 .gotop {
   position: fixed;
   background-color: #ffffff;

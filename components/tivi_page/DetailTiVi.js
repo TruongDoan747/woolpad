@@ -67,7 +67,7 @@ const DetailTiVi = () => {
       id: 6,
       title: "100",
       price: 93429000,
-      currentPrice: 12771900
+      currentPrice: 102771900
     },
 
   ];
@@ -134,17 +134,19 @@ const DetailTiVi = () => {
                 {prices.map((item) => (
                   item.id === priceId && (
                     <div>
-                      <span className='text-[14px] font-semibold text-[#868686] line-through '>{item.currentPrice.toLocaleString()} <span className='underline'>đ</span></span>
-                      <span className='pl-5 text-[20px] font-semibold text-[#000000]'>{item.price.toLocaleString()} <span className='underline text-[18px] text-[#383636]'>đ</span></span>
+                      <span className='text-[16px] font-semibold text-[#868686] line-through '>{item.currentPrice.toLocaleString()} <span className='underline'>đ</span></span>
+                      <span className='pl-5 text-[25px] font-semibold text-[#000000]'>{item.price.toLocaleString()} <span className='underline text-[18px] text-[#383636]'>đ</span></span>
                     </div>)
                 ))}
               </div>
-              <button
-                type="button"
-                class=" button_rotate_animation text-center shadow-box w-[110px] h-[40px] mt-[20px] mb-[20px] text-[16px] font-semibold leading-normal text-[#ffffff] rounded-[40.0783px] hover:bg-success-600 border-gray-950 bg-black-400  shadow-md"
-              >
-                Mua Ngay
-              </button>
+              <a href='https://shopee.vn/phantrang9891?utm_content=qpc8BjwX2oLY9K4yZ39tP73MpBZ' target='_blank'>
+                <button
+                  type="button"
+                  class=" button_rotate_animation text-center shadow-box w-[110px] h-[40px] mt-[20px] mb-[20px] text-[16px] font-semibold leading-normal text-[#ffffff] rounded-[40.0783px] hover:bg-success-600 border-gray-950 bg-black-400  shadow-md"
+                >
+                  Mua Ngay
+                </button>
+              </a>
             </div>
           </div>
         </div>

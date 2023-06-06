@@ -72,11 +72,12 @@ const Footer = () => {
   const [activeLink, setActiveLink] = useState(null);
   return (
 
-    <div className="custom_container h-[200px] pt-5">
+    <div className="custom_container h-[200px] pt-16">
 
       <div className=" flex flex-col justify-center items-center">
         <div className=" h-[1px] bg-[#beb8b8c5] w-[90%] text-center pl-[10%] pr-[10%]" />
-        <p className="text-[#979292da] mt-5">CÔNG TY TNHH WOOLPAD</p>
+        <p className="text-[#be1c1cda] mt-5 text-[24px] font-semibold">HotLine: 0328.488.081 hoặc 0903.090.891</p>
+        <p className="text-[#7a7878da] mt-5">Copyright © 2023 Đoàn Xuân Trường</p>
       </div>
       {/* <div className=" hidden lg:block">
 
