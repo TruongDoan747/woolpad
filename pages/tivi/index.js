@@ -8,24 +8,23 @@ import React from 'react';
 
 
 const LayoutWrapper = dynamic(() => import('@/components/Layout/Layout'), {
- ssr: false,
+    ssr: false,
 });
 const About = () => {
- return (
-  <React.Suspense>
-   <Head>
-    <title>Woolstore - TiVi</title>
-    <link rel="icon" href="/favicon.ico" />
-   </Head>
-   <LayoutWrapper>
-    <DetailTiVi />
-    <SubDetail />
-
-    {/* <ScrollTop /> */}
-    <HotLine />
-   </LayoutWrapper>
-  </React.Suspense>
- );
+    return (
+        <React.Suspense>
+            <Head>
+                <title>Woolstore - TiVi</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            <LayoutWrapper>
+                <DetailTiVi />
+                <SubDetail />
+                {/* <ScrollTop /> */}
+                <HotLine />
+            </LayoutWrapper>
+        </React.Suspense>
+    );
 };
 
 export default About;

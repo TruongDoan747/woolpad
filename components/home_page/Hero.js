@@ -127,14 +127,13 @@ const HeroHompage = () => {
                       src={item.src}
                       fill
                       style={{ objectFit: "contain" }}
-                      height='370px'
-                      width='580px'
+
                     />
                   </div>
                   <a href='/tivi'>
                     <button
                       type="button"
-                      class="button_rotate_animation text-center shadow-box w-[130px] h-[40px] mt-[20px] text-[18px] font-normal leading-normal text-[#ffff] rounded-[40.0783px] hover:bg-success-600 bg-[#131212] hover:bg-[#111111] shadow-md"
+                      class="button_rotate_animation text-center shadow-box w-[130px] h-[40px]  text-[18px] font-normal leading-normal text-[#ffff] rounded-[40.0783px] hover:bg-success-600 bg-[#131212] hover:bg-[#111111] shadow-md"
                     >
                       Xem Thêm
                     </button>

@@ -175,8 +175,8 @@ li.check:before {
   display: flex;
   align-items: center;
   justify-content: center;
-  right: 36px;
-  bottom: 60px;
+  right: 0px;
+  bottom: 0px;
   cursor: pointer;
   animation: gotop 1s ease;
   z-index: 9999;
