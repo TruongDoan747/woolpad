@@ -8,6 +8,7 @@ import Head from 'next/head';
 import React from 'react';
 import '../i18next';
 import Product from '@/components/home_page/Product';
+import HotLine from '@/components/HotLine';
 
 
 
@@ -26,7 +27,8 @@ export default function Home() {
         <HeroHompage />
         <Light />
         <Product />
-        <ScrollTop />
+        <HotLine />
+        {/* <ScrollTop /> */}
       </LayoutWrapper>
     </React.Suspense>
   );
